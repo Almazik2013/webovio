@@ -1,0 +1,56 @@
+header {
+    background-image: url(../img/backround-image--section1.webp);
+    height: 712px;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 12%;
+    color: white;
+}
+
+header img {
+    width: 135px;
+    margin-top: 50px;
+}
+
+.section1 {
+    width: 350px;
+    margin-top: 45px;
+}
+
+.section1-text--mini {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    leading-trim: NONE;
+    line-height: 74px;
+    letter-spacing: 0px;
+    width: 539px;
+}
+
+.section1-text {
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 26px;
+    letter-spacing: 0px;
+
+}
+
+.a-yellow {
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-offset: 0%;
+    text-decoration-thickness: 0%;
+    color: #FFD723;
+}

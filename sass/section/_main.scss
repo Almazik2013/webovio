@@ -1,0 +1,134 @@
+main {
+    padding: 0 12%;
+}
+
+.section2 {
+    position: relative;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 150px;
+}
+
+.container-photo {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background: white;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    gap: 20px;
+}
+
+.container-photo img {
+    width: 16%;
+    max-width: 100px;
+    height: auto;
+    object-fit: contain;
+}
+
+.section2 > div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+}
+
+.container-information--s2 {
+    width: 50%;
+    padding-top: 0;
+}
+
+.section2-text--mini {
+    font-weight: 400;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #4D533CE5;
+    margin-top: 120px;
+}
+
+.section2-title {
+    font-weight: 700;
+    font-size: 36px;
+    leading-trim: NONE;
+    line-height: 46px;
+    letter-spacing: 0px;
+    color: #4D533C;
+    width: 319px;
+}
+
+.section2-text {
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #21384299;
+    width: 475px;
+}
+
+.a-grey {
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-offset: 0%;
+    text-decoration-thickness: 0%;
+    color: #D4D6D4;
+    margin-bottom: 183px;
+}
+
+.card-information--people {
+    width: 50%;
+    padding: 0 20px 20px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+    background: white;
+}
+
+.card-information--people_title {
+    font-weight: 400;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 40px;
+    letter-spacing: 0px;
+    width: 426px;
+    padding-top: 120px;
+}
+
+.card-people {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.card-people img {
+    margin-top: 75px;
+}
+
+.card-people--title {
+    font-weight: 700;
+    font-size: 22px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.card-people--text {
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
